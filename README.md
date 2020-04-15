@@ -1,6 +1,6 @@
 # Fax machine
 
-You are given a task to create a CLI Node.js app that will parse a file formatted like this:
+Create a CLI Node.js app that will parse a file formatted like this:
 
 ```
     _  _     _  _  _  _  _
@@ -15,6 +15,11 @@ The app should be able to parse this file and give actual numbers printed on the
 For the example above, the app should return this result:
 
 ```
--> node index.js
+->(task.txt) node app.js
 123456789
+```
+
+```
+->(task2.txt) node app.js
+723456980
 ```
